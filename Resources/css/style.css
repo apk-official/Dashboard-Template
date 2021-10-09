@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,body{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.557),rgba(0, 0, 0, 0.231)),linear-gradient(to bottom right,#ff1b6b,#45caff51); 
+    background-size: cover;
+    background-position: center;
+    font-size: 1rem;
+    font-family: 'Roboto';
+    color: #fff;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------*/
+/*-----------HEADER-------------*/
+/*------------------------------*/
+
+header{
+    height: 90vh;
+    width: 90vw;
+    position: absolute;
+    left: 5vw;
+    top: 5vh;
+    background-color: rgba(194, 194, 194, 0.244);
+    backdrop-filter: blur(50px);
+    border-radius: 10px;
+}
+/*-----------Profile pic section-----------------*/
+.profile-pic{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    float: left;
+    position:absolute;
+    top: 5rem;
+    left:6rem;
+    background-color: #f2f2f2;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.dp{
+    position: relative;
+    right: 5rem;
+    bottom: 1rem;
+    height: 15rem;
+    width: auto;
+
+    
+}
+
+/*-----------cover pic section-----------------*/
+
+
+
+
+.back-icon{
+    position:absolute;
+    font-size: 1.5rem;
+    color: #fff;
+    left: 1.5rem;
+    top: 1rem;
+}
+
+
+/*----------------------------------*/
+.extra{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+/*-----------DASHBOARD----------------------------*/
+.dashboard{
+    width: 25%;
+    height: 100%;
+    background-color:  rgba(202, 202, 202, 0.176);
+    border-radius: 10px 0px 0px 10px;
+    backdrop-filter: blur(500px);
+}
+
+.profile-details{
+    height: 22%;
+    width: 100;
+    position: relative;
+    top: 16rem;
+    border-bottom: 0.5px solid #b3b3b372;
+    
+}
+h1{
+    font-size: 1.5rem;
+    font-family: 'Roboto';
+    font-weight: 500;
+    text-align: center;
+}
+
+.followers{
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    margin-top: 1rem;
+}
+.para{
+    position: relative;
+    top: 8px;
+    margin-left: 4rem;
+    color: rgba(255, 255, 255, 0.836);
+    margin-bottom: 2rem;
+}
+/*-----------Social icons------------*/
+.social-icons{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 1.3rem;
+}
+
+.social-icons li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 5px;
+}
+
+.social-icons li a{
+    color: #d4d4d5;
+}
+
+/*-----------INFORMATION-----------*/
+
+.info li{
+    list-style: none;
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+
+.info-para{
+    margin-left: 1rem;
+}
+
+
+
+
+
+/*----------------CONTENT--------------------*/
+
+.content{
+    position: relative;
+    float: right;
+    width: 75%;
+    height:100%;
+    background-color: rgba(224, 224, 224, 0.19);
+    justify-content: right;
+    border-radius:0px 10px 10px 0px ;
+    backdrop-filter: blur(500px);
+}
+
+
+
+/*---------NAVIGATION-----------*/
+
+.nav{
+    height: 8vh;
+    width: 100%;
+    border-radius:0px 0px 10px 0px;
+    background-color: rgba(255, 255, 255, 0.034);
+    backdrop-filter: blur(200px);
+    
+}
+
+
+
+.main-nav{
+
+}
+.main-nav li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 5rem;
+    padding-top: 0.9rem;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    color: rgba(255, 255, 255, 0.483);
+    text-decoration: none;
+
+}
+
+.select{
+    color: #fff;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #fff;
+}
+
+h2{
+    position: relative;
+    top: 1.5rem;
+    left: 3rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgb(220, 220, 220);
+
+}
+.works{
+    display: flex;
+}
+
+.recent-works{
+    position: relative;
+    left: 3rem;
+    top: 3rem;
+    height: 25rem;
+    width: 28rem;
+    background-color: rgba(255, 255, 255, 0.319);
+    backdrop-filter: blur(200px);
+    border-radius: 10px;
+
+}
+
+.space{
+    margin-left: 2rem;
+}
+
+
+
+
+/*---------OPTIONS----------*/
+
+.details{
+    position: relative;
+    top: 18rem;
+    padding-left: 5rem;
+}
+
+h3{
+    font-weight: 400;
+}
